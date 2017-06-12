@@ -14,8 +14,8 @@ index: `Machine Learning` `Algorithm` `KNN` `SVM`
 `svm` `kernel` `空間轉換` `Seperating hyperplane` `SMO` 
 
 基於序列最小優化算法（Sequential Optimization,SMO）   
-    - 優點：**泛化誤差**（Generalization error）低  
-    - 缺點：對**參數**的調節和 **核函數(kernel)** 的選擇敏感
+    - 優點： **泛化誤差** （Generalization error）低  
+    - 缺點：對 **參數** 的調節和 **核函數(kernel)** 的選擇敏感
     
    svm的優點在於能對數據進行高效分類，  
    如果支撐向量太少，就可能得到一個差的決策分界  
@@ -45,10 +45,10 @@ index: `Machine Learning` `Algorithm` `KNN` `SVM`
 
 
 ## 備註：
-####監督學習-分類(supervised learning):  
+#### 監督學習-分類(supervised learning):  
     需要知道目標值，簡單說知道數據在尋找什麼，訓練樣本要有標記。  
     給定輸入樣本進入模型，從中計算出該樣本的可能結果。  
-####無監督學習-聚類(unsupervised learning)：  
+#### 無監督學習-聚類(unsupervised learning)：  
     無需知道搜尋的目標，只需從算法程序中得到數據共同特徵。  
 		  
 >聚類分析試圖將相似對象歸入同一cluster，不相似歸到不同cluster。  
@@ -57,7 +57,7 @@ index: `Machine Learning` `Algorithm` `KNN` `SVM`
   但是可以事前決定我要將資料集分成幾個群。
 
     
-####泛化誤差（Generalization error）:  
+#### 泛化誤差（Generalization error）:  
 >機器學習實驗過程，是我們希望通過訓練集能夠學習出在新樣本（測試集）上也表現良好的學習期（模型）。  
     我們常用「錯誤率」（error rate）或「精度」（accuracy）來量化模型的好壞程度，其中錯誤率 = 1 - 精度。    
     一般地，我們用「誤差」表示學習器的實際預測輸出與樣本的真是輸出之間的差異，在訓練集上的誤差稱為「訓練誤差」，  

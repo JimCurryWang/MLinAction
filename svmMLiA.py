@@ -1,7 +1,7 @@
 '''
-Created on Nov 4, 2010
-Chapter 5 source file for Machine Learing in Action
-@author: Peter
+SVM
+support vector machine base on SMO
+
 '''
 from numpy import *
 from time import sleep

@@ -15,7 +15,7 @@ index: `Machine Learning` `Algorithm` `KNN` `SVM`
 
 基於序列最小優化算法（Sequential Optimization,SMO）   
     - 優點：**泛化誤差**（Generalization error）低  
-    - 缺點：對**參數**的調節和**核函數(kernel)**的選擇敏感
+    - 缺點：對**參數**的調節和 **核函數(kernel)** 的選擇敏感
     
    svm的優點在於能對數據進行高效分類，  
    如果支撐向量太少，就可能得到一個差的決策分界  
